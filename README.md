@@ -7,7 +7,7 @@ Thesis Plots
 
 **Description:** This repo has two matplotlib style files that you can use to format plots for your thesis (or academic paper).
 
-**Use:** Put the ``*.mplstyle`` files in your ``mpl_configdir/stylelib`` directory. (Ideally, you should use a symbolic link so that they always stay up to date with the repo.) If you're not sure where ``mpl_configdir`` is located, in an interactive python console type:
+**Use:** Put the ``*.mplstyle`` files in your ``mpl_configdir/stylelib`` directory. If you're not sure where ``mpl_configdir`` is located, in an interactive python console type:
 
 ```python
 import matplotlib
