@@ -1,3 +1,8 @@
-# Make subfigure plots slightly narrower so that they fit on the page
+# Make subfigure plots slightly smaller so that they fit on the page
 
-figure.figsize : 3.15, 2.625
+figure.figsize : 2.9, 2.15
+
+legend.fontsize : 9
+axes.labelsize : 9
+xtick.labelsize : 9
+ytick.labelsize : 9

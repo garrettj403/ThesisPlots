@@ -34,7 +34,7 @@ legend.frameon : False
 
 # Always save as 'tight'
 savefig.bbox : tight
-savefig.pad_inches : 0.2
+savefig.pad_inches : 0.05
 
 # Use serif fonts
 font.serif : Times New Roman
