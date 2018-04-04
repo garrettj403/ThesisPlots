@@ -5,7 +5,7 @@ Thesis Plots
 
 **Author:** John Garrett (https://github.com/garrettj403)
 
-**Description:** This repo has two matplotlib style files that you can use to format plots for your thesis (or academic paper).
+**Description:** This repo has two matplotlib style files that you can use to format plots for your thesis (or academic paper). The ``thesis`` style was optimized for singular plots (plots all on their own), while the ``subfigure`` style was optimized to fit two figures side-by-side (as a subfigure in LaTeX).
 
 **Installation:** Put the ``*.mplstyle`` files in your Matplotlib style directory. If you're not sure where this is, in an interactive python console type:
 
@@ -22,8 +22,9 @@ You should get back something like ``'/home/garrett/.matplotlib'``. You'd then p
 import matplotlib.pyplot as plt 
 plt.style.use('thesis')
 # or
-plt.style.use('subfigure')
+plt.style.use(['thesis','subfigure'])
 ```
+Note that in the second case, the ``subfigure`` style will override some of the parameters from the ``thesis`` style.
 
 Example
 -------
