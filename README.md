@@ -1,6 +1,8 @@
 Thesis Plots
 ============
 
+**NOTE: I made a new project called [SciencePlots](https://github.com/garrettj403/SciencePlots) that is more recent. I'll leave ThesisPlots here in case anyone is still using it.**
+
 *Nice plot formatting for a scientific thesis* 
 
 **Author:** John Garrett (https://github.com/garrettj403)
